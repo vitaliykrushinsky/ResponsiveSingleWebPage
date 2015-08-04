@@ -1,0 +1,15 @@
+@mixin backImage($image) {
+	background: url($image) no-repeat center center fixed; 
+  	background-size: cover;
+}
+
+@mixin clearfix {
+	&:before,
+	&:after {
+		content: '';
+		display: table;
+	}// before, after
+	&:after {
+		clear: both;
+	}//before
+}//clearfix

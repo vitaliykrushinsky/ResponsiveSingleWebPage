@@ -1,0 +1,18 @@
+body {
+	font: $mainfont;
+	background: $backgroundColor;
+	color: $typeDefault;
+}
+#{headings()} {
+	font: $headfont;
+	color: $headColor;
+	font-weight: $bold;
+}
+strong {
+	font-weight: $bold;
+	
+}
+p {
+	font-weight: $thin;
+	padding-bottom: 10px;
+}

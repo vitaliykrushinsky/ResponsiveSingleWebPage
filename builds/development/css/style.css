@@ -1,0 +1,152 @@
+@import url(http://fonts.googleapis.com/css?family=Exo+2:400,200,600,800);
+/* line 5, c:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, c:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, c:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, c:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, c:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, c:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, c:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, c:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, c:/Ruby22/lib/ruby/gems/2.2.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 21, c:/Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/language/susy/_box-sizing.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 1, ../../../components/sass/_base.scss */
+body {
+  font: 200 1em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #FFFFFF;
+  color: #000000;
+}
+
+/* line 6, ../../../components/sass/_base.scss */
+h1, h2, h3, h4, h5, h6 {
+  font: 200 1.5em/1.5em "Exo 2", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #0f83a0;
+  font-weight: 600;
+}
+
+/* line 11, ../../../components/sass/_base.scss */
+strong {
+  font-weight: 600;
+}
+
+/* line 15, ../../../components/sass/_base.scss */
+p {
+  font-weight: 200;
+  padding-bottom: 10px;
+}
+
+/* line 1, ../../../components/sass/_layout.scss */
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 7, ../../../components/sass/_layout.scss */
+.scene {
+  position: relative;
+  padding: 20px 0;
+}
+
+/* line 2, ../../../components/sass/modules/_intro.scss */
+header .fullheight {
+  background: url("../images/hotel/splash_hotelphoto.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+/* line 5, ../../../components/sass/modules/_intro.scss */
+header .fullheight .hgroup {
+  padding: 100px 0;
+}
+/* line 8, ../../../components/sass/modules/_intro.scss */
+header .fullheight .hgroup h1 {
+  color: #FFFFFF;
+  font-size: 5em;
+  font-weight: 800;
+  line-height: .8em;
+  text-shadow: #000000 0 0 20px;
+  text-align: center;
+}
+/* line 16, ../../../components/sass/modules/_intro.scss */
+header .fullheight .hgroup h2 {
+  display: block;
+  color: #FFFFFF;
+  width: 60%;
+  max-width: 200px;
+  margin: 0 auto;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+  border: 1px solid #FFFFFF;
+  margin-top: 15px;
+  padding: 10px;
+  font-size: 1.3em;
+}
+/* line 29, ../../../components/sass/modules/_intro.scss */
+header .fullheight .hgroup p {
+  text-align: center;
+}
+/* line 32, ../../../components/sass/modules/_intro.scss */
+header .fullheight .hgroup p img {
+  padding-top: 50px;
+  max-width: 50px;
+}
