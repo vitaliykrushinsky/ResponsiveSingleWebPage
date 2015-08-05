@@ -4,7 +4,9 @@ header #nav {
 	width: 100%;
 	
 	.navbar {
+		@include container; // centered items inside conatiner navbar  
 		.brand {
+			@include span(4);
 			float: left;
 			font-weight: $bold;
 			font-family: $headfont;
@@ -23,6 +25,7 @@ header #nav {
 		} //brand
 		
 		ul {
+			@include span(8 at 4 of 12);
 			li {
 				float: left;
 				
