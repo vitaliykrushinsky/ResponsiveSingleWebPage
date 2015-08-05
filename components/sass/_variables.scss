@@ -2,12 +2,19 @@
 
 @include border-box-sizing; // for old IE
 
+//SUSY set up
 $susy: (
 	columns: 12,
 	container: 60em,
 	gutters: 1/4,
 	gutter-position: inside,
 );
+
+//Breakpoint
+$narrow: 400px;
+$small:  650px;
+$medium: 960px;
+$wide:   1200px;
 
 //add Color Palette
 $blue   : #063642;
