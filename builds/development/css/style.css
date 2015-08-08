@@ -145,12 +145,18 @@ body {
 header .fullheight {
   background: url("../images/hotel/splash_hotelphoto.jpg") no-repeat center center fixed;
   background-size: cover;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
-/* line 5, ../../../components/sass/modules/_intro.scss */
+/* line 9, ../../../components/sass/modules/_intro.scss */
 header .fullheight .hgroup {
   padding: 100px 0;
 }
-/* line 8, ../../../components/sass/modules/_intro.scss */
+/* line 12, ../../../components/sass/modules/_intro.scss */
 header .fullheight .hgroup h1 {
   color: #FFFFFF;
   font-size: 5em;
@@ -159,7 +165,7 @@ header .fullheight .hgroup h1 {
   text-shadow: #000000 0 0 20px;
   text-align: center;
 }
-/* line 16, ../../../components/sass/modules/_intro.scss */
+/* line 20, ../../../components/sass/modules/_intro.scss */
 header .fullheight .hgroup h2 {
   display: block;
   color: #FFFFFF;
@@ -173,11 +179,11 @@ header .fullheight .hgroup h2 {
   padding: 10px;
   font-size: 1.3em;
 }
-/* line 29, ../../../components/sass/modules/_intro.scss */
+/* line 33, ../../../components/sass/modules/_intro.scss */
 header .fullheight .hgroup p {
   text-align: center;
 }
-/* line 32, ../../../components/sass/modules/_intro.scss */
+/* line 36, ../../../components/sass/modules/_intro.scss */
 header .fullheight .hgroup p img {
   padding-top: 50px;
   max-width: 50px;
@@ -617,12 +623,18 @@ header #nav .navbar ul li a:hover {
 }
 /* line 11, ../../../components/sass/modules/_rooms.scss */
 #rooms .room {
-  padding: 200px 0;
+  padding: 100px 0;
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
   padding-left: 9.16667%;
   padding-right: 9.16667%;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
 /* line 12, c:/Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
 #rooms .room:after {
@@ -637,45 +649,45 @@ header #nav .navbar ul li a:hover {
     padding-right: 9.16667%;
   }
 }
-/* line 20, ../../../components/sass/modules/_rooms.scss */
+/* line 24, ../../../components/sass/modules/_rooms.scss */
 #rooms .room#piccadilly {
   background: url("../images/hotel/rooms_piccadilly.jpg") no-repeat center center fixed;
   background-size: cover;
 }
-/* line 23, ../../../components/sass/modules/_rooms.scss */
+/* line 27, ../../../components/sass/modules/_rooms.scss */
 #rooms .room#cambridge {
   background: url("../images/hotel/rooms_cambridge.jpg") no-repeat center center fixed;
   background-size: cover;
 }
-/* line 26, ../../../components/sass/modules/_rooms.scss */
+/* line 30, ../../../components/sass/modules/_rooms.scss */
 #rooms .room#westminster {
   background: url("../images/hotel/rooms_westminster.jpg") no-repeat center center fixed;
   background-size: cover;
 }
-/* line 29, ../../../components/sass/modules/_rooms.scss */
+/* line 33, ../../../components/sass/modules/_rooms.scss */
 #rooms .room#oxford {
   background: url("../images/hotel/rooms_oxford.jpg") no-repeat center center fixed;
   background-size: cover;
 }
-/* line 32, ../../../components/sass/modules/_rooms.scss */
+/* line 36, ../../../components/sass/modules/_rooms.scss */
 #rooms .room#victoria {
   background: url("../images/hotel/rooms_victoria.jpg") no-repeat center center fixed;
   background-size: cover;
 }
-/* line 35, ../../../components/sass/modules/_rooms.scss */
+/* line 39, ../../../components/sass/modules/_rooms.scss */
 #rooms .room#manchester {
   background: url("../images/hotel/rooms_manchester.jpg") no-repeat center center fixed;
   background-size: cover;
 }
-/* line 38, ../../../components/sass/modules/_rooms.scss */
+/* line 42, ../../../components/sass/modules/_rooms.scss */
 #rooms .room .content {
   -moz-border-radius: 10px;
   -webkit-border-radius: 10px;
   border-radius: 10px;
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(255, 255, 255, 0.7);
   padding: 20px;
 }
-/* line 44, ../../../components/sass/modules/_rooms.scss */
+/* line 48, ../../../components/sass/modules/_rooms.scss */
 #rooms .room .content h1 {
   color: #DF4848;
 }
