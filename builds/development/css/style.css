@@ -585,3 +585,97 @@ header #nav .navbar ul li a:hover {
     padding-right: 300px;
   }
 }
+
+/* line 2, ../../../components/sass/modules/_rooms.scss */
+#rooms header {
+  margin-bottom: 20px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, c:/Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+#rooms header:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+@media (min-width: 960px) {
+  /* line 2, ../../../components/sass/modules/_rooms.scss */
+  #rooms header {
+    max-width: 60em;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 9.16667%;
+    padding-right: 9.16667%;
+  }
+  /* line 12, c:/Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+  #rooms header:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+/* line 11, ../../../components/sass/modules/_rooms.scss */
+#rooms .room {
+  padding: 200px 0;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 9.16667%;
+  padding-right: 9.16667%;
+}
+/* line 12, c:/Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+#rooms .room:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+@media (min-width: 650px) {
+  /* line 11, ../../../components/sass/modules/_rooms.scss */
+  #rooms .room {
+    padding-left: 59.16667%;
+    padding-right: 9.16667%;
+  }
+}
+/* line 20, ../../../components/sass/modules/_rooms.scss */
+#rooms .room#piccadilly {
+  background: url("../images/hotel/rooms_piccadilly.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+/* line 23, ../../../components/sass/modules/_rooms.scss */
+#rooms .room#cambridge {
+  background: url("../images/hotel/rooms_cambridge.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+/* line 26, ../../../components/sass/modules/_rooms.scss */
+#rooms .room#westminster {
+  background: url("../images/hotel/rooms_westminster.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+/* line 29, ../../../components/sass/modules/_rooms.scss */
+#rooms .room#oxford {
+  background: url("../images/hotel/rooms_oxford.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+/* line 32, ../../../components/sass/modules/_rooms.scss */
+#rooms .room#victoria {
+  background: url("../images/hotel/rooms_victoria.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+/* line 35, ../../../components/sass/modules/_rooms.scss */
+#rooms .room#manchester {
+  background: url("../images/hotel/rooms_manchester.jpg") no-repeat center center fixed;
+  background-size: cover;
+}
+/* line 38, ../../../components/sass/modules/_rooms.scss */
+#rooms .room .content {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+}
+/* line 44, ../../../components/sass/modules/_rooms.scss */
+#rooms .room .content h1 {
+  color: #DF4848;
+}
