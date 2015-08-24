@@ -483,14 +483,69 @@ header #nav .navbar ul li a:hover {
   }
 }
 
-/* line 2, ../../../components/sass/modules/_events.scss */
+/* line 1, ../../../components/sass/modules/_events.scss */
+#events {
+  padding: 0;
+}
+/* line 19, ../../../components/sass/_mixins.scss */
+#events:before, #events:after {
+  content: '';
+  display: table;
+}
+/* line 24, ../../../components/sass/_mixins.scss */
+#events:after {
+  clear: both;
+}
+/* line 5, ../../../components/sass/modules/_events.scss */
+#events .event {
+  position: relative;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, c:/Ruby22/lib/ruby/gems/2.2.0/gems/susy-2.2.5/sass/susy/output/support/_clearfix.scss */
+#events .event:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+@media (min-width: 650px) {
+  /* line 5, ../../../components/sass/modules/_events.scss */
+  #events .event {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+  }
+}
+/* line 12, ../../../components/sass/modules/_events.scss */
+#events .event .content {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  color: #FFFFFF;
+  font-weight: 200;
+  line-height: 130%;
+}
+/* line 21, ../../../components/sass/modules/_events.scss */
+#events .event .content h2 {
+  color: #FFFFFF;
+  line-height: 1em;
+}
+/* line 25, ../../../components/sass/modules/_events.scss */
+#events .event .content p {
+  padding: 5px 0;
+}
+/* line 32, ../../../components/sass/modules/_events.scss */
 #events #businessmeetings {
   background: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/hotel/events_conference.jpg");
   background-repeat: no-repeat;
   background-position: 65% top;
   background-size: cover;
 }
-/* line 5, ../../../components/sass/modules/_events.scss */
+/* line 35, ../../../components/sass/modules/_events.scss */
 #events #weddings {
   background: linear-gradient(to left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../images/hotel/events_wedding.jpg");
   background-repeat: no-repeat;
