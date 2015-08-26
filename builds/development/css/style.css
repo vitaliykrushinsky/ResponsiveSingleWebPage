@@ -200,6 +200,7 @@ header #nav {
   background-image: -webkit-linear-gradient(top, #0a5c71, #063642);
   background-image: linear-gradient(to bottom, #0a5c71, #063642);
   width: 100%;
+  z-index: 100;
 }
 /* line 19, ../../../components/sass/_mixins.scss */
 header #nav:before, header #nav:after {
