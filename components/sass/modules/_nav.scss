@@ -75,6 +75,11 @@ header #nav {
 							background-image: none;
 						}
 					}
+					
+					&.active {
+						background-color: $red;
+						color: $light;
+					}
 				} //a
 			} //li
 		} //ul
